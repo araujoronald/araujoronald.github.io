@@ -1,0 +1,27 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:araujoronald.github.io",
+    "verificationMethod": [
+        {
+            "id": "did:web:araujoronald.github.io#owner",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:araujoronald.github.io",
+            "publicKeyJwk": {
+                "kty": "OKP",
+                "alg": "EdDSA",
+                "crv": "Ed25519",
+                "x": "0LsZf0gEPjfPCsogtUz8j4xiohQj5ioPevZgfUx1BN",
+                "kid": "a8d615a8-1666-4b1b-8ae9-58be9e89b9d7"
+            }
+        }
+    ],
+    "authentication": [
+        "did:web:araujoronald.github.io#owner"
+    ],
+    "assertionMethod": [
+        "did:web:araujoronald.github.io#owner"
+    ]
+}
