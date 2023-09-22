@@ -13,8 +13,8 @@
                 "kty": "OKP",
                 "alg": "EdDSA",
                 "crv": "Ed25519",
-                "x": "0LsZf0gEPjfPCsogtUz8j4xiohQj5ioPevZgfUx1BN",
-                "kid": "a8d615a8-1666-4b1b-8ae9-58be9e89b9d7"
+                "x": "2-o3FzvKdT70DqTMdOb-PhRVgGpcSjn90l3oqUDRzxE",
+                "kid": "8e1ef104-fe4c-4e42-8524-3d84efd2248a"
             }
         }
     ],
