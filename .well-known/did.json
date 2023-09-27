@@ -6,21 +6,20 @@
     "id": "did:web:araujoronald.github.io",
     "verificationMethod": [
         {
-            "id": "did:web:araujoronald.github.io#owner",
+            "id": "did:web:araujoronald.github.io",
             "type": "JsonWebKey2020",
             "controller": "did:web:araujoronald.github.io",
             "publicKeyJwk": {
                 "kty": "OKP",
-                "alg": "EdDSA",
                 "crv": "Ed25519",
-                "x": "fec50e86358fa5e39ffc702d73dc69c7e826971e0d01a9489f36a9555b1f0262"
+                "x": "_sUOhjWPpeOf_HAtc9xpx-gmlx4NAalInzapVVsfAmI"
             }
         }
     ],
     "authentication": [
-        "did:web:araujoronald.github.io#owner"
+        "did:web:araujoronald.github.io"
     ],
     "assertionMethod": [
-        "did:web:araujoronald.github.io#owner"
+        "did:web:araujoronald.github.io"
     ]
 }
