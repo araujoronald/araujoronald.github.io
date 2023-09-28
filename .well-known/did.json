@@ -6,7 +6,7 @@
     "id": "did:web:araujoronald.github.io",
     "verificationMethod": [
         {
-            "id": "did:web:araujoronald.github.io",
+            "id": "did:web:araujoronald.github.io#controller",
             "type": "JsonWebKey2020",
             "controller": "did:web:araujoronald.github.io",
             "publicKeyJwk": {
@@ -17,9 +17,9 @@
         }
     ],
     "authentication": [
-        "did:web:araujoronald.github.io"
+        "did:web:araujoronald.github.io#controller"
     ],
     "assertionMethod": [
-        "did:web:araujoronald.github.io"
+        "did:web:araujoronald.github.io#controller"
     ]
 }
